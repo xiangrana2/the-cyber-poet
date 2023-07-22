@@ -9,6 +9,8 @@ packages = [{include = "the_cyber_poet"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 openai = "^0.27.0"
+python-dotenv = "^0.19.2"
+requests = "^2.26.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
